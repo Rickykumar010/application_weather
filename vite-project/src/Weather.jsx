@@ -14,7 +14,7 @@ export default function Weather() {
             setWeather(response.data);
           }catch (error) {
             console.error("error", error);
-            alert('city is not avaliable');
+            alert('city is not avaliable')
            }
     };
     const handleSearch = () => {
